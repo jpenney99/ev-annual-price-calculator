@@ -8,6 +8,9 @@
         body {background-color: floralwhite;}
         h1 {text-align: center;}
         .myDiv{border: 1px outset black; text-align: center; width: 50px;}
+        form{width: 300px;
+             height: 300px
+            }
     </style>
 </head>
 <body>
@@ -22,59 +25,51 @@
         This tool allows you to quickly compare various EV models to
         gasoline model vehicles to estimate with todays market how long
         it would take for you to save some money.
-    </p2>
-<br>
-<br>
-<form>
-<p3><b>Choose your current vehicle<b></p3>
-<br>
-<br>
-    <label for="gyear">Year:</label>
+    </p2><br><br>
+    <form>
+        <p3><b>Choose your current vehicle<b></p3><br><br>
+        <label for="gyear">Year:</label>
+            <select name="gyear" id="gyear">
+                <option value="---">---</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+            </select><br><br>
 
-    <select name="gyear" id="gyear">
-        <option value="---">---</option>
-        <option value="2024">2024</option>
-        <option value="2023">2023</option>
-        <option value="2022">2022</option>
-        <option value="2021">2021</option>
-    </select>
-    <br>
-    <br>
-    <label for="gmake">Make:</label>
+        <label for="gmake">Make:</label>
+            <select name="gmake" id="gmake">
+             <option value="---">---</option>
+                <option value="Ford">Ford</option>
+                <option value="Honda">Honda</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Hyundai">Hyundai</option>
+            </select><br><br>
 
-    <select name="gmake" id="gmake">
-        <option value="---">---</option>
-        <option value="Ford">Ford</option>
-        <option value="Honda">Honda</option>
-        <option value="Toyota">Toyota</option>
-        <option value="Hyundai">Hyundai</option>
-    </select>
-    <br>
-    <br>
-    <label for="gmodel">Model:</label>
+        <label for="gmodel">Model:</label>
+            <select name="gmodel" id="gmodel">
+                <option value="---">---</option>
+                <option value="F-150">F-150</option>
+                <option value="Bronco">Bronco</option>
+                <option value="Escape">Escape</option>
+                <option value="Mustang">Mustang</option>
+            </select><br><br>
 
-    <select name="gmodel" id="gmodel">
-        <option value="---">---</option>
-        <option value="F-150">F-150</option>
-        <option value="Bronco">Bronco</option>
-        <option value="Escape">Escape</option>
-        <option value="Mustang">Mustang</option>
-    </select>
-    <br>
-    <br>
-    <label for="gmonthlypayment">Monthly Payment:</label><br>
-    <input type="text" id="gmonthlypayment" name="gmonthlypayment">
-    <br>
-    <br>
-    <input type="submit" value="Submit">
-<br>
-<br>
-<p4><b>Yearly Cost to Own</b><p4><br><br>
-<p5>Price</p5>
-<div class="myDiv"><p6>$1000</p6></div><br>
-<p7><b>Yearly Cost to Maintain</b></p7><br><br>
-<p8>Fuel Costs</p8>
-<div class="myDiv"><p6>$1000</p6></div>
-<form>
+        <label for="gmonthlypayment">Monthly Payment:</label><br>
+        <input type="text" id="gmonthlypayment" name="gmonthlypayment"><br><br>
+        <input type="submit" value="Submit"><br><br>
+        <p4><b>Yearly Cost to Own</b><p4><br><br>
+        <p5>Price</p5>
+        <div class="myDiv"><p6>$1000</p6></div><br>
+        <p7><b>Yearly Cost to Maintain</b></p7><br><br>
+        <p8>Fuel Costs</p8>
+        <div class="myDiv"><p6>$1000</p6></div>
+        <p9>Maintenance Costs</p9>
+        <div class="myDiv"><p6>$1000</p6></div>
+    <form>
+    <div class="container">
+        <div class="form" id="form"></div>
+        <div class="from" id="form2"></div>
+    <div>
 </body>
 </html>
