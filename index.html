@@ -17,46 +17,60 @@
         This tool allows you to quickly compare various EV models to
         gasoline model vehicles to estimate with todays market how long
         it would take for you to save some money.</p1><br><br>
-    <form>
-        <div class="choose-current-vehicle">Choose your current vehicle</div><br><br>
-        <label for="gyear">Year:</label>
-            <select name="gyear" id="gyear">
-                <option value="---">---</option>
-                <option value="2024">2024</option>
-                <option value="2023">2023</option>
-                <option value="2022">2022</option>
-                <option value="2021">2021</option>
-            </select><br><br>
+    <div class="main-container">
+        <div class="form-result-container">
+            <div class="form-container">
+                <form class="current-vehicle-inputs">
+                    <div class="choose-current-vehicle">Choose your current vehicle</div>
+                    <label for="gyear">Year:</label>
+                        <select name="gyear" id="gyear">
+                            <option value="---">---</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                        </select><br><br>
 
-        <label for="gmake">Make:</label>
-            <select name="gmake" id="gmake">
-             <option value="---">---</option>
-                <option value="Ford">Ford</option>
-                <option value="Honda">Honda</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Hyundai">Hyundai</option>
-            </select><br><br>
+                     <label for="gmake">Make:</label>
+                        <select name="gmake" id="gmake">
+                            <option value="---">---</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Hyundai">Hyundai</option>
+                        </select><br><br>
 
-        <label for="gmodel">Model:</label>
-            <select name="gmodel" id="gmodel">
-                <option value="---">---</option>
-                <option value="F-150">F-150</option>
-                <option value="Bronco">Bronco</option>
-                <option value="Escape">Escape</option>
-                <option value="Mustang">Mustang</option>
-            </select><br><br>
-
-        <label for="gmonthlypayment">Monthly Payment:</label><br>
-        <input type="text" id="gmonthlypayment" name="gmonthlypayment"></input><br><br>
-        <input type="submit" value="Submit"></input><br><br>
-        <p4>Yearly Cost to Own</p4><br><br>
-        <p5>Price</p5>
-        <div class="myDiv"><p6>$1000</p6></div><br>
-        <p7>Yearly Cost to Maintain</p7><br><br>
-        <p8>Fuel Costs</p8>
-        <div class="myDiv"><p6>$1000</p6></div>
-        <p9>Maintenance Costs</p9>
-        <div class="myDiv"><p6>$1000</p6></div>
-    <form>
+                    <label for="gmodel">Model:</label>
+                        <select name="gmodel" id="gmodel">
+                            <option value="---">---</option>
+                            <option value="F-150">F-150</option>
+                            <option value="Bronco">Bronco</option>
+                            <option value="Escape">Escape</option>
+                            <option value="Mustang">Mustang</option>
+                        </select>
+                    
+                    <label for="gmonthlypayment">Monthly Payment:</label>
+                    <input type="text" id="gmonthlypayment" name="gmonthlypayment"></input><br><br>
+                
+                    <input type="submit" value="Submit"></input><br><br>
+                </form>
+            </div>
+            <div class="form-results">
+                <form class="current-vehicle-outputs">
+                    <div class="yearly-cost-to-own">Yearly Cost to Own</div><br>
+             
+                     <div>Price</div>
+                     <div class="price-box"><div>$1000</div></div><br>
+             
+                     <div>Yearly Cost to Maintain</div><br>
+             
+                     <div>Fuel Costs</div>
+                     <div class="price-box"><div>$1000</div></div>
+                     <div>Maintenance Costs</div>
+                     <div class="price-box"><div>$1000</div></div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
