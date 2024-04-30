@@ -36,7 +36,17 @@ h1 {text-align: center;}
     justify-content: space-evenly;
 }
 
-.output-heading{
+.desired-vehicle-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.desired-vehicle-outputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.comparison-heading{
     text-align: center;
     font-weight: bold;
     font-size: x-large;
@@ -45,4 +55,20 @@ h1 {text-align: center;}
 .rough-yearly-cost{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.savings-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.savings-box{
+    border: 1px outset black;
+    border-width: medium;
+    text-align: center;
+    font-weight: bold;
+    justify-content: space-evenly;
+    font-size: xx-large;
 }
