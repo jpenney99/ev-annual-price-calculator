@@ -6,16 +6,20 @@ h1 {text-align: center;}
 
 .choose-current-vehicle {
     font-weight: bold;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .choose-EV {
     font-weight: bold;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .yearly-cost-to-own {
     font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .current-vehicle-inputs{
@@ -73,4 +77,32 @@ h1 {text-align: center;}
     font-weight: bold;
     justify-content: space-evenly;
     font-size: xx-large;
+}
+
+#gyear{
+    margin-bottom: 10px;
+}
+
+#gmake{
+    margin-bottom: 10px;
+}
+
+#gmodel{
+    margin-bottom: 10px;
+}
+
+#gmonthlypayment{
+    margin-bottom: 20px;
+}
+
+#eyear{
+    margin-bottom: 10px;
+}
+
+#emake{
+    margin-bottom: 10px;
+}
+
+#emodel{
+    margin-bottom: 20px;
 }
