@@ -6,10 +6,12 @@ h1 {text-align: center;}
 
 .choose-current-vehicle {
     font-weight: bold;
+    margin: 10px;
 }
 
 .choose-EV {
     font-weight: bold;
+    margin: 10px;
 }
 
 .yearly-cost-to-own {
