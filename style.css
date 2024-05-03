@@ -6,14 +6,14 @@ h1 {text-align: center;}
 
 .choose-current-vehicle {
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .choose-EV {
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .yearly-cost-to-own {
@@ -104,5 +104,19 @@ h1 {text-align: center;}
 }
 
 #emodel{
-    margin-bottom: 20px;
+    margin-bottom: 65px;
+}
+
+.rough-yearly-cost{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.yearly-cost-to-maintain{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
